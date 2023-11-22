@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exp</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'blog/css/style.css' %}">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a class="about-us" href="{% url 'about' %}">О нас</a></li>
+            <li><a class="telegramm" href="https://t.me/ExpKurs_Bot">Телеграмм</a></li>
+        </ul>
+    </nav>
+    <header>
+    <a href="{% url 'index' %}">
+        <img style='height: auto;' src="../../../static/blog/image/logo.png" alt="Изображение логотипа" width="100" height="150" class="logo">
+    </a>
+    </header>
+    <div class="parent-div-url">
+        <div class="block-url">
+
+        </div>
+    </div>
+    <div class="parent-div-two">
+        <div class="div-two">
+            {% for post in posts %}
+                    <h1><a href="{{ post.get_absolute_url }}" class="post-title">{{ post.title }}</a></h1>
+                    <p class="short-title">{{ post.short_title }}</p>
+                    <a href="#"><img src="{{ post.image.url }}"  alt="{{ post.title }}" style="width: 200px" class="image-post"> </a>
+            {% endfor %}
+    <div class="pagination">
+        <span class="step-links">
+        {% for i in posts.paginator.page_range %}
+            {% if posts.number == i %}
+                <span class="current">{{ i }}</span>
+            {% else %}
+                <a href="?page={{ i }}"style="padding-right: 3px">{{ i }}</a>
+            {% endif %}
+        {% endfor %}
+            </span>
+    </div>
+
+            </span>
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>

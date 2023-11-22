@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:ital,wght@0,400;0,500;1,500&family=Raleway:wght@100&family=Roboto:ital,wght@1,300&display=swap');
+
+
+body {
+    background-color: rgba(43, 42, 41, 1);
+    margin: 0 0 0 0;
+    z-index: 0;
+}
+
+
+header {
+    height: 100px;
+    text-align: left;
+}
+
+
+nav{
+    margin-bottom: 0px;
+    padding-top: 20px;
+    
+    
+}
+
+
+.logo{
+    position: absolute;
+    top: 0px;
+}
+
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0px;
+    margin-left: 150px;
+    font-weight: lighter;
+}
+
+
+li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+
+.about-us{
+    color: rgba(255, 255, 255, 0.712);
+}
+
+
+.about-us:hover{
+    color: white;
+}
+
+
+.telegramm{
+    color: rgba(255, 255, 255, 0.712);
+}
+
+
+.telegramm:hover{
+    color: white;
+}
+
+
+li:last-child {
+    margin-right: 0px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.block-url{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(49, 48, 47);
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.parent-div-url{
+    height: 80px;
+    position: relative;
+    top: -170px;
+    z-index: -1;
+}
+
+
+
+.parent-div-two{
+    height: 3050px;
+    width: 1020px;
+
+}
+
+
+.div-two{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-left: 900px;
+    padding-top: 70px;
+
+}
+
+
+.div-two::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49,48,47);
+    color: #312e2e;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.1; /* Прозрачность только для фонового изображения */
+    z-index: -1; /* Помещаем фоновое изображение под основной контент */
+}
+
+
+.block-about-us-parent{
+    height: 3700px;
+    width: 900px;
+}
+
+
+.block-about-us{
+    background-color: rgb(49, 48, 47);
+    height: 100%;
+    width: 100%;
+    margin-left: 500px;
+
+}
+
+
+.post{
+    text-decoration: none;
+    z-index: 3;
+}
+
+
+.post-title{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    margin-left: 35vh;
+}
+
+.short-title{
+    position: relative;
+    margin-left: 35vh;
+    color: white;
+    font-size: 15px;
+}
+
+
+.image-post{
+    position: relative;
+    top: -8px;
+}
+
+
+.image-post{
+    padding-left: 100px;
+    position: relative;
+    top: -120px;
+}
+
+
+.current{
+    padding-right: 3px;
+}
+
+
+
+.next{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.first{
+    padding-right: 10px;
+}
+
+
+.back-two{
+    padding-right: 5px;
+}
+
+
+.step-links{
+    padding-left: 60vh;
+    top: -12vh;
+    position: relative;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+
+.detail-photo{
+    max-width: 100%;
+    position: relative;
+    padding-left: 240px;
+}
+
+
+.commments-you label {
+    color: white;
+
+}
+
+
+.commments-you{
+    font-size: 15px;
+    position: relative;
+    bottom: -30px;
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+
+
+}
+
+
+.commments-you textarea{
+    width: 850px;
+    height: 40px;
+    background-color: gray;
+    resize: none;
+    left: 55vh;
+    border-radius: 7px;
+    cursor: text;
+    margin-bottom: 10px;
+
+}
+
+
+.commments-you input{
+    border-radius: 7px;
+    background-color: gray;
+    resize: none;
+    text-decoration: none;
+    font-style: normal
+;
+
+}
+
+
+.sumbit-button{
+    margin-left: 95vh;
+    position: relative;
+    bottom: -5px;
+    cursor: text;
+}
+
+
+.view-comment p{
+    color: white;
+}
+
+
+button{
+    color: gray;
+    background-color: transparent;
+    border-style: none;
+    font-size: 25px;
+    position: relative;
+    top: -15px;
+    left: -10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
